@@ -6,7 +6,7 @@ TOSHI has Assistants that deliver orders from our Brands’ shops, to our custom
 
 We will use Google’s Distance Matrix API to perform the calculation, and store the results in the browser’s local storage.
 
-We will provide a JSON object of orders. The JSON file contains an order reference, customer name, customer address, long/lat fields, and a delivery order column.
+We will provide an endpoint that returns a JSON object of orders. The JSON contains an order reference, customer name, customer address, long/lat fields, and a delivery order column.
 
 <br>
 
